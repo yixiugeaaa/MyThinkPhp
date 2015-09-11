@@ -21,4 +21,16 @@ class FormController extends Controller{
 		$Form->add($data);
 	}
 	
+	public function read($id=0){
+		$Form   =   M('Form');
+		// 读取数据
+		$data =   $Form->find($id);
+		if($data) {
+			$this->assign('data',$data);// 模板变量赋值
+		}else{
+			$this->error('数据错误');
+		}
+		$this->display();
+	}
+	
 }

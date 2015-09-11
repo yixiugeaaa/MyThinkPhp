@@ -1172,3 +1172,95 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
 
+[ 2015-09-11T16:20:53+08:00 ] ::1 /app/index.php/home/Form/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\app\Application\Runtime\Cache\Home\d86ffc4c1353d30d0cfbfd2c48e280b4.php 第 4 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\app\Application\Runtime\Cache\Home\d86ffc4c1353d30d0cfbfd2c48e280b4.php 第 8 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\app\Application\Runtime\Cache\Home\d86ffc4c1353d30d0cfbfd2c48e280b4.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\app\Application\Runtime\Cache\Home\d86ffc4c1353d30d0cfbfd2c48e280b4.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2015-09-11T16:21:53+08:00 ] ::1 /app/index.php/home/Form/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_form` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001148s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\app\Application\Runtime\Cache\Home\d86ffc4c1353d30d0cfbfd2c48e280b4.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2015-09-11T16:24:31+08:00 ] ::1 /app/index.php/home/Form/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_form` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000826s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002790s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\app\Application\Runtime\Cache\Home\d86ffc4c1353d30d0cfbfd2c48e280b4.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2015-09-11T16:27:24+08:00 ] ::1 /app/index.php/home/Form/read/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_form` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002397s ]
+
